@@ -36,7 +36,6 @@ public class BookDetailActivity extends SlidingActivity {
     public static String Intent_Book_ToEdit = "BOOKTOEDIT";
     private static final String TAG = "BookDetailActivity";
     private Book mBook;
-
     private TextView infoTitleTextView;
     private ImageView coverImageView;
     private TextView addtimeTextView;
@@ -60,8 +59,6 @@ public class BookDetailActivity extends SlidingActivity {
     private TextView labelsTextView;
     private RelativeLayout websiteRelativeLayout;
     private TextView websiteTextView;
-
-
     @Override
     public void init(Bundle savedInstanceState) {
         // Instead of overriding onCreate(), we should override init().
